@@ -92,7 +92,7 @@ export const Services = () => {
         >
           <motion.div className="w-full h-full">
             <Image
-              src="/creativity.jpg"
+              src="/create.jpg"
               alt="creative image"
               fill
               className="object-cover rounded-2xl"
