@@ -16,11 +16,11 @@ const MoreAbout = () => {
       <h1 className="text-4xl md:text-5xl lg:text-7xl text-center text-black mb-2 font-medium lg:[450]">
         Erfahre mehr über uns
       </h1>
-      <div className="flex flex-col lg:flex-row sm:px-7 lg:mt-4 items-center justify-between">
+      <div className="flex flex-col lg:flex-row sm:px-7 lg:mt-10 items-center justify-between">
         {/* Map Component */}
         <Map />
         
-        <div className="flex flex-col items-start justify-start px-5">
+        <div className="flex flex-col items-start justify-start mt-15  xl:-mt-15 px-5">
           <motion.div
             initial={{opacity:0, y:-50}}
             whileInView={{opacity: 1, y:0}}
@@ -51,7 +51,7 @@ const MoreAbout = () => {
         </div>
       </div>
 
-      <div className="text-green-700 flex flex-wrap justify-center lg:justify-between mb-10 mt-10 lg:px-24 px-5 gap-y-10 gap-x-10">
+      <div className="text-green-700 flex flex-wrap lg:flex-nowrap justify-center lg:justify-between mb-10 mt-10 lg:px-24 px-5 gap-y-10 gap-x-12">
         {/* Card 1 */}
         <div className="w-full md:w-[45%] lg:w-[190px] flex flex-col justify-start text-left md:border-r md:border-gray-500 lg:border-none">
           <motion.div

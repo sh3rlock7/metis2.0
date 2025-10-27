@@ -26,7 +26,7 @@ export const Services = () => {
       </div>
 
       {/* Contenedor de servicios */}
-      <div className="flex flex-wrap justify-center gap-x-18 gap-y-6 mt-10">
+      <div className="flex flex-wrap md:flex-wrap justify-center gap-x-18 gap-y-6 mt-10">
         {/* Servicio 1 */}
         <motion.div
           className="relative w-80 aspect-4/3 overflow-hidden rounded-2xl cursor-pointer bg-gray-100 shadow-lg"
@@ -87,7 +87,7 @@ export const Services = () => {
 
         {/* Servicio 3 */}
         <motion.div
-          className="relative w-80 aspect-4/3 overflow-hidden rounded-2xl cursor-pointer bg-gray-100 shadow-lg"
+          className="relative w-80 aspect-4/3  overflow-hidden rounded-2xl cursor-pointer bg-gray-100 shadow-lg"
           layout
         >
           <motion.div className="w-full h-full">
