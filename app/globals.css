@@ -3,6 +3,9 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --icons: #00d47c;
+  --buttonsBg: #161616;
+  --drawerBg: #f7f4f0;
 }
 
 @theme inline {
@@ -24,3 +27,23 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+ .swiper-slide {
+          background: transparent;
+          opacity: 0.7;
+          transition: transform 0.6s ease, opacity 0.6s ease;
+        }
+
+        .swiper-slide-active {
+          opacity: 1;
+          transform: scale(1.05);
+        }
+
+        .swiper-slide-shadow-left,
+        .swiper-slide-shadow-right {
+          background-image: linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.4),
+            transparent
+          );
+        }
