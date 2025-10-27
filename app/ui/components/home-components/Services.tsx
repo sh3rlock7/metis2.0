@@ -10,7 +10,7 @@ export const Services = () => {
         <h1 className="text-6xl font-semibold md:text-5xl lg:text-7xl text-center lg:font-[450] lg:mt-12 text-black">
           Gemeinsam Ideen verwirklichen
         </h1>
-        <h3 className="text-black text-xl sm:text-xl font-bold text-center px-6 md:mt-12 lg:px-64">
+        <h3 className="text-black text-xl sm:text-xl font-bold text-center mt-12 px-6 lg:px-64">
           Unsere Mission ist es, weltweit inspirierende und effektive
           Werbekampagnen zu schaffen. Mit unserer globalen Reichweite und
           tiefgehenden lokalen Expertise setzen wir uns dafür ein, Ihr
