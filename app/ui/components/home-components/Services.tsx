@@ -36,7 +36,7 @@ export const Services = () => {
           <motion.div className="w-full h-full">
             <Image
               src="/global.jpg"
-              alt="office"
+              alt="global conection"
               fill
               className="object-cover rounded-2xl"
             />
@@ -93,7 +93,7 @@ export const Services = () => {
           <motion.div className="w-full h-full">
             <Image
               src="/creativity.jpg"
-              alt="office"
+              alt="creative image"
               fill
               className="object-cover rounded-2xl"
             />
