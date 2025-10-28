@@ -1,13 +1,19 @@
 "use client"
 import Link from "next/link"
 import { IoIosArrowRoundForward } from "react-icons/io"
-
+import { MetisName } from "./MetisName"
+import { motion } from 'motion/react';
 
 export const HeroContent = () => {
   return (
     <div className="absolute z-10 text-white sm:mb-64 sm:px-32 lg:px-64">
-      <h1 className="text-[clamp(4rem,25vw,15rem)]  mr-5 sm:mr-0 text-center font-semibold mt-10 sm:mt-48 lg:mt-96">metis</h1>
-      <div className="text-left lg:w-[50%] mt-12 sm:mt-0 lg:mr-48">
+      {/* <h1 className="text-[clamp(4rem,25vw,15rem)]  mr-5 sm:mr-0 text-center font-semibold mt-10 sm:mt-48 lg:mt-96">metis</h1> */}
+      <MetisName />
+      <motion.div 
+          initial={{opacity:0}}
+          animate={{opacity: 1}}
+          transition={{delay:0.8, duration: 2}}
+        className="text-left lg:w-[50%] mt-12 sm:mt-0 lg:mr-48">
         <h3 className="text-xl font-bold">
             Wir stehen für Globalität
         </h3>
@@ -18,7 +24,7 @@ export const HeroContent = () => {
             <span>Erfahre mehr </span>
             <IoIosArrowRoundForward  className="text-xl"/>  
         </Link> 
-      </div>
+      </motion.div>
     </div>
   )
 }

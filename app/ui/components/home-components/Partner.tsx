@@ -25,7 +25,7 @@ export const Partner = () => {
       <div className="w-full lg:w[80%] flex flex-wrap gap-x-2 lg:w-full" >
           {logos.map((logo, idx) => (
             
-              <Image key={idx} className="mx-auto mt-5 invert bg-white" src={logo.src} width={150} height={150} alt={logo.alt} />
+              <Image key={idx} className="mx-auto mt-5 px-1 invert bg-white  " src={logo.src} width={130} height={130} alt={logo.alt} />
           ))}
        
       </div>
