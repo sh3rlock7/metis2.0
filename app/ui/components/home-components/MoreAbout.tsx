@@ -20,7 +20,7 @@ const MoreAbout = () => {
         {/* Map Component */}
         <Map />
         
-        <div className="flex flex-col items-start justify-start mt-15  xl:-mt-15 px-5">
+        <div className="flex flex-col items-start justify-start sm:mt-15  xl:-mt-15 px-5">
           <motion.div
             initial={{opacity:0, y:-50}}
             whileInView={{opacity: 1, y:0}}
